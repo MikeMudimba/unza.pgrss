@@ -1,0 +1,105 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "default": true
+    },
+    {
+      "name": "Student",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "student",
+      "default": false,
+      "submenu": [
+        {
+          "url": "/student/register",
+          "name": "Register",
+          "slug": "student-register"
+        },
+        {
+          "url": "/student/ethical-clearance",
+          "name": "Ethical clearance",
+          "slug": "student-ethical-clearance"
+        },
+        {
+          "url": "/student/research-proposal",
+          "name": "Research proposal",
+          "slug": "student-research-proposal"
+        },
+        {
+          "url": "/student/seminer-week",
+          "name": "Seminer week",
+          "slug": "student-seminer-week"
+        },
+        {
+          "url": "/student/dissertation",
+          "name": "Dissertation",
+          "slug": "student-dissertation"
+        },
+        {
+          "url": "/student/journal",
+          "name": "Journal paper",
+          "slug": "student-journal"
+        },
+        {
+          "url": "/student/completion-letter",
+          "name": "Completion Letter",
+          "slug": "student-completion-letter"
+        },
+        {
+          "url": "/student/tutorials",
+          "name": "Tutorials",
+          "slug": "tutorials"
+        }
+      ]
+    },
+    {
+      "name": "Account",
+      "icon": "menu-icon tf-icons bx bx bx-user-circle",
+      "slug": "account",
+      "default": true,
+      "submenu": [
+        {
+          "url": "/user/profile",
+          "name": "Profile",
+          "slug": "account-profile"
+        },
+        {
+          "url": "/user/settings",
+          "name": "Settings",
+          "slug": "account-settings"
+        }
+      ]
+    },
+    {
+      "name": "Supervisor",
+      "icon": "menu-icon tf-icons bx bx bx-user",
+      "slug": "supervisor",
+      "default": false,
+      "submenu": [
+        {
+          "url": "/supervisor/projects",
+          "name": "Projects",
+          "slug": "supervisor-projects"
+        },
+        {
+          "url": "/supervisor/intakes",
+          "name": "Intakes",
+          "slug": "supervisor-intakes"
+        },
+        {
+          "url": "/supervisor/programmes",
+          "name": "Programmes",
+          "slug": "supervisor-programmes"
+        },
+        {
+          "url": "/supervisor/users",
+          "name": "User accounts",
+          "slug": "supervisor-users"
+        }
+      ]
+    }
+  ]
+}
